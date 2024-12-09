@@ -10,14 +10,14 @@
             var username = document.getElementById("username").value;
             var password = document.getElementById("password").value;
 
-            // Проверяем, есть ли сохраненные данные о пользователе в localStorage
+            // Проверяем сохраненные данные о пользователе в localStorage
             var storedUsername = localStorage.getItem('username');
             var storedPassword = localStorage.getItem('password');
 
             if (username === storedUsername && password === storedPassword) {
                 // Успешный логин, сохраняем состояние
                 localStorage.setItem("loggedIn", "true");
-                window.location.href = "login.html";  // Перенаправляем на главную страницу
+                window.location.href = "index.html";  // Перенаправляем на главную страницу
             } else {
                 alert("Неверный логин или пароль!");
             }
