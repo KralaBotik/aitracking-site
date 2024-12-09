@@ -17,8 +17,8 @@ document.getElementById('registerForm')?.addEventListener('submit', function(eve
 
     alert('Регистрация успешна! Теперь можете войти.');
 
-    // Перенаправление на страницу логина
-    window.location.href = 'index.html';
+ 
+   
 });
 
 // Логика входа
