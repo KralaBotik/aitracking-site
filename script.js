@@ -17,7 +17,7 @@ document.getElementById('registerForm')?.addEventListener('submit', function(eve
 
     alert('Регистрация успешна! Теперь можете войти.');
 
- 
+    window.location.href = 'login.html';
    
 });
 
