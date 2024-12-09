@@ -10,14 +10,14 @@
             // Проверяем, авторизован ли пользователь
             if(localStorage.getItem("loggedIn") !== "true") {
                 // Если не авторизован, перенаправляем на страницу логина
-                window.location.href = "login.html";
+                window.location.href = "index.html";
             }
         }
 
         function logout() {
             // Удаляем информацию о пользователе из localStorage
             localStorage.removeItem("loggedIn");
-            window.location.href = "login.html";
+            window.location.href = "index.html";
         }
     </script>
 </head>
@@ -25,7 +25,7 @@
     <header>
         <h1>AI-трекинг в умных домах</h1>
         <nav>
-            <a href="index.html">Главная</a>
+            <a href="login.html">Главная</a>
             <a href="about.html">О проекте</a>
             <a href="technology.html">Технология</a>
             <a href="usecases.html">Применение</a>
