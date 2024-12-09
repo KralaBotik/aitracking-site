@@ -17,7 +17,7 @@ document.getElementById('registerForm')?.addEventListener('submit', function(eve
 
     alert('Регистрация успешна! Теперь можете войти.');
 
-    window.location.href = 'login.html';
+    window.location.href = 'index.html';
    
 });
 
@@ -33,7 +33,7 @@ document.getElementById('loginForm')?.addEventListener('submit', function(event)
 
     if (username === storedUsername && password === storedPassword) {
         alert('Вход успешен!');
-        window.location.href = 'login.html'; // Перенаправление на главную страницу
+        window.location.href = 'about.html'; // Перенаправление на главную страницу
     } else {
         alert('Неверный логин или пароль!');
     }
